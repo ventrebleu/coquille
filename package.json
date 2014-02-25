@@ -1,0 +1,11 @@
+{
+  "name" : "coquille",
+  "version" : "0.0.1",
+  "dependencies" : {
+    "grunt": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-contrib-compass": "latest",
+    "grunt-contrib-uglify": "latest",
+    "matchdep": "latest"
+  }
+}
