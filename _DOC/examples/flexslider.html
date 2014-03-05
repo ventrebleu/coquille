@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Flexslider</title>
+
+<link rel="stylesheet" href="../../css/main.css">
+
+</head>
+<body>
+
+<h1>Flexslider example</h1>
+
+<div class="flexslider" style="width:400px;">
+  <ul class="slides">
+    <li>
+      <img src="http://dummyimage.com/400x300/666666/fff.jpg&text=picture1" />
+    </li>
+    <li>
+      <img src="http://dummyimage.com/400x300/660066/fff.jpg&text=picture2" />
+    </li>
+    <li>
+      <img src="http://dummyimage.com/400x300/666600/fff.jpg&text=picture3" />
+    </li>
+    <li>
+      <img src="http://dummyimage.com/400x300/006666/fff.jpg&text=picture4" />
+    </li>
+    <!-- items mirrored twice, total of 12 -->
+  </ul>
+</div>
+
+<p>Needs <strong>flexslider.js</strong>, <strong>flexslider fonts</strong> and <strong>_flexslider.scss</strong> to work.<br>Find more info on properties at <a href="https://github.com/woothemes/FlexSlider/wiki/FlexSlider-Properties" target="_blank">Flexslider Github</a>.</p>
+
+<!-- javascript and plugins -->
+	<script src="../../js/jquery-1.10.1.min.js"></script>
+	<script src="../../js/main.js"></script>
+	<script>
+	$(window).load(function() {
+		$('.flexslider').flexslider({
+			animation: "slide",
+			animationLoop: true
+		});
+	});
+
+	</script>
+<!-- end javascript and plugins -->
+	
+</body>
+</html>

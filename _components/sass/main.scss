@@ -3,11 +3,10 @@
 
 @import "vars";
 @import "utils";
+@import "flexslider"; /* plugin flaxslider */
 @import "base";
 @import "layout";
 @import "modules";
 
-header, footer {
-	background-color: $color_1;
-}
+
 
